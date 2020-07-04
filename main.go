@@ -12,7 +12,7 @@ var path = "logs.txt"
 
 //Main function
 func main() {
-	fmt.Println("HWID-Checker used by Charged Development")
+	fmt.Println("HWID-Checker")
 
 	uuid, err := machineid.ID()
 	if err != nil {
